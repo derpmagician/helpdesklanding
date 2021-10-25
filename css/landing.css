@@ -1,0 +1,30 @@
+.navbar{
+    background: rgba(8,8,8,0.7);
+}
+
+#home{
+    
+    color:rgb(221, 207, 12);
+    text-shadow: black 0.2em 0.2em 0.3em;
+    background: url(../images/full1.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#home .lead, #home .display-5{
+    background: rgba(8,8,8,0.7);
+}
+#about {
+
+    min-height: 100vh;
+    color:rgb(221, 207, 12);
+    background: #141E30;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
