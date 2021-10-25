@@ -3,7 +3,7 @@
 }
 
 #home{
-    
+    min-height: 100vh;
     color:rgb(221, 207, 12);
     text-shadow: black 0.2em 0.2em 0.3em;
     background: url(../images/full1.jpg) no-repeat center center fixed;
