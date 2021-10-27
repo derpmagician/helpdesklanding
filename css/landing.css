@@ -50,9 +50,9 @@
     min-height: 100vh;
     background: #d6cbd8;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #243B55, #d6cbd8);
+    background: -webkit-linear-gradient(to right, #d6cbd8, #243B55);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #243B55, #d6cbd8);
+    background: linear-gradient(to right, #d6cbd8, #243B55);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -68,12 +68,12 @@
     color:white;
     background: rgba(8,8,8,0.7);
     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.5);
-  }
+}
 
   .repo, .repo-proy {
     color:rgb(221, 207, 12);
-  }
+}
 
   .repo:hover {
     color:rgb(112, 9, 143);
-  }
+}
