@@ -30,8 +30,8 @@
 
 }
 
-#feature img {
-    border-radius: 30px;
+#feature .lead {
+    color:rgb(221, 207, 12);
 }
 
 #about {
