@@ -18,7 +18,7 @@
 }
 #feature {
 
-    min-height: 100vh;
+
     color:rgb(202, 19, 19);
     text-shadow: black 0.2em 0.2em 0.3em;
     background: #141E30;
@@ -36,7 +36,6 @@
 
 #about {
 
-    min-height: 100vh;
     color:rgb(221, 207, 12);
     background: #6e0360;
     /* fallback for old browsers */
@@ -44,6 +43,19 @@
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #243B55, #6e0360);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#about img {
+    border-radius: 50px;
+}
+
+.photo {
+    max-width: 300px;
+    padding: 20px;
+    border-radius: 50px;
+    color:white;
+    background: rgba(121, 46, 83, 0.7);
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.5);
 }
 
 #demo {
@@ -57,24 +69,14 @@
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-
-#about img {
-    border-radius: 30px;
-}
-
-.photo {
-    max-width: 300px;
-    padding: 35px;
-    border-radius: 15px;
-    color:white;
-    background: rgba(8,8,8,0.7);
-    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.5);
-}
-
-  .repo, .repo-proy {
+.repo, .repo-proy {
     color:rgb(221, 207, 12);
 }
 
-  .repo:hover {
+.repo:hover {
     color:rgb(112, 9, 143);
+}
+
+.linkdn:hover {
+    color:rgb(119, 192, 241);
 }
