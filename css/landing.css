@@ -1,10 +1,13 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
 .navbar{
     background: rgba(8,8,8,0.7);
 }
 
 #home{
     min-height: 100vh;
-    color:rgb(221, 207, 12);
+    color:rgb(61, 192, 148);
     text-shadow: black 0.2em 0.2em 0.3em;
     background: url(../images/full1.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -17,8 +20,6 @@
     background: rgba(8,8,8,0.7);
 }
 #feature {
-
-
     color:rgb(202, 19, 19);
     text-shadow: black 0.2em 0.2em 0.3em;
     background: #141E30;
@@ -35,37 +36,49 @@
 }
 
 #about {
+    background: #86538f;
+    color:rgb(238, 238, 236);
 
-    color:rgb(221, 207, 12);
-    background: #6e0360;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #243B55, #6e0360);
+    background: -webkit-linear-gradient(to right, #243B55, #86538f);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #243B55, #6e0360);
+    background: linear-gradient(to right, #243B55, #86538f);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-#about img {
-    border-radius: 50px;
+#about .card-body {
+    color:rgb(86, 228, 178);
+    margin:50px auto;
 }
 
-.photo {
-    max-width: 250px;
-    padding: 5px;
-    margin-left: 50px;
-    border-radius: 50px;
-    background: rgba(121, 46, 83, 0.7);
-    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.5);
+#about .repo {
+    color:rgb(74, 4, 95);
+}
+
+#about .repo:hover {
+    color:rgb(167, 24, 24);
+}
+
+#about .linkdn:hover {
+    color:rgb(65, 80, 218);
+}
+
+#about img {
+    background-image: url("Logo.png");
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    margin:-80px auto;
 }
 
 #demo {
 
     min-height: 100vh;
-    background: #d6cbd8;
+    background: #eb5353;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #d6cbd8, #243B55);
+    background: -webkit-linear-gradient(to right, #eb5353, #243B55);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #d6cbd8, #243B55);
+    background: linear-gradient(to right, #eb5353, #243B55);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -80,3 +93,6 @@
 .linkdn:hover {
     color:rgb(119, 192, 241);
 }
+
+
+
