@@ -51,6 +51,11 @@ body {
     margin:50px auto;
 }
 
+#about .p-name {
+    margin-top: 1em;
+    color:rgb(202, 19, 19)
+}
+
 #about .repo {
     color:rgb(74, 4, 95);
 }
@@ -64,16 +69,14 @@ body {
 }
 
 #about img {
-    background-image: url("Logo.png");
     width:150px;
     height:150px;
     border-radius: 50%;
-    margin:-80px auto;
+    margin: -5em auto;
+    
 }
 
 #demo {
-
-    min-height: 100vh;
     background: #eb5353;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #eb5353, #243B55);
@@ -93,6 +96,3 @@ body {
 .linkdn:hover {
     color:rgb(119, 192, 241);
 }
-
-
-
